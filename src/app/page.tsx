@@ -29,7 +29,7 @@ export default function Home() {
       <div className="relative flex flex-col items-center space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 lg:text-center">
         <a
           href="https://discord.com/oauth2/authorize?client_id=949565943275720736&permissions=2147796992&scope=bot%20applications.commands"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-800 hover:bg-gray-100 hover:dark:border-neutral-500 hover:dark:bg-neutral-500/30"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,14 +39,14 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-65`}>
             Invite me to your server to get vital information to play
           </p>
         </a>
 
         <a
           href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-800 hover:bg-gray-100 hover:dark:border-neutral-500 hover:dark:bg-neutral-500/30"
           target="_parent"
           rel="noopener noreferrer"
         >
@@ -56,7 +56,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-65`}>
             View, add or remove your League of Legends account in the bot
           </p>
         </a>
